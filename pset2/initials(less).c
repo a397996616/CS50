@@ -4,7 +4,7 @@
 #include <ctype.h>
 int main(void)
 {
-    printf("full name: ");
+//    printf("full name: ");
     char *name = get_string();
     
     printf("%c", toupper(name[0]));
