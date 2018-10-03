@@ -1,1 +1,0 @@
-hydra -s 80 -l 'username' -p 'password' http-get
