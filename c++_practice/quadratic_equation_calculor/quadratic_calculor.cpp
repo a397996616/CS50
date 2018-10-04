@@ -17,8 +17,9 @@ int main(){
 	cout<<"enter variable c:";
 	cin>>c;
 	delta=sqrt(b*b-4*a*c);
+	cout<<"delta:"<<delta<<endl;
 	
-	if(delta<0){	
+	if(delta>0){	
 		x1=(-b+delta)/(2*a);
 		x2=(-b-delta)/(2*a);
 		cout<<"x1="<<x1<<", x2="<<x2<<endl;
